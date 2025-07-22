@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ .form-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.form-table td, .form-table th {
+  padding: 0.5rem;
+  vertical-align: top;
+  border: 2px solid #ccc;
+  text-align: left;
+}
+.form-table th {
+  background-color: #A1BBD2;
+  text-align: left;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap; /* Optional: helps on small screens */
+}
+
+.search-input {
+  min-width: 250px;
+  max-width: 100%;
+}
